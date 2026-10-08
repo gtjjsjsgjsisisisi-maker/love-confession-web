@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You 💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="floaters" aria-hidden="true">
+        <span class="floater heart">💖</span>
+        <span class="floater heart">💞</span>
+        <span class="floater heart">✨</span>
+        <span class="floater heart">🌷</span>
+        <span class="floater heart">💌</span>
+        <span class="floater heart">💗</span>
+      </div>
+
+      <main class="container">
+        <section id="start-screen" class="card visible">
+          <div class="badge">For you, my favorite person</div>
+
+          <h1>มีเรื่องอยากบอก</h1>
+          <p class="subtitle">
+            กดค้างที่ปุ่มนี้จนเต็ม 100% แล้วผมจะเปิดใจให้เธออ่านสิ่งที่ซ่อนอยู่
+          </p>
+
+          <div class="progress-wrap">
+            <div class="progress-meta">
+              <span>Progress</span>
+              <span id="progress-value">0%</span>
+            </div>
+            <div class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+          </div>
+
+          <button id="hold-btn" class="hold-btn" type="button">
+            <span class="btn-glow"></span>
+            <span class="btn-label">กดค้าง</span>
+          </button>
+        </section>
+
+        <section id="love-screen" class="love-screen" aria-live="polite">
+          <div class="message-card">
+            <div class="sticker-row">
+              <span>💖</span>
+              <span>💌</span>
+              <span>🌷</span>
+              <span>✨</span>
+            </div>
+
+            <h2>รักเธอมากนะ 💕</h2>
+
+            <p>
+              เธอเป็นคนที่ทำให้ผมยิ้มได้ทุกวัน แม้แต่เรื่องเล็ก ๆ ก็กลายเป็นเรื่องที่
+              ผมอยากแบ่งปันกับเธอเสมอ
+            </p>
+
+            <p>
+              รักเธอแบบไม่ต้องอธิบายมาก เพราะทุกครั้งที่คิดถึงเธอ
+              ใจผมก็รู้สึกอบอุ่นและมีความสุขมากขึ้นทุกวัน
+            </p>
+
+            <p class="final-line">เธอคือคนที่ทำให้ทุกวันของผมสวยขึ้น 💗</p>
+
+            <div class="mini-stickers">
+              <span>💞</span>
+              <span>💗</span>
+              <span>🌼</span>
+              <span>💘</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
